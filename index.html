@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>GoShort | Url Shortener</title>
+  
+  <script defer src="script.js"></script>
+  <script defer src="ScrollRev.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="logo-nav-container">
+    <h1><span class ="logo">GO</span>short</h1>
+    <nav class="navigation">
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Resources</a>
+      <a class="menuIcon" href="#"><i class='bx bx-menu'></i></a>
+    </nav>
+    <nav class="sidebar">
+      <div class="close-icon">
+        <div class="close-nav-icon-container">
+          <a href="#"><i class='bx bx-x'></i> </a>
+        </div>
+      </div>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Resources</a>
+      <div class="login-btn">
+        <a href="#">Login</a>
+      </div>  
+      <div class="cta-btn opacity">
+        <a href="#">Sign Up</a>
+      </div>
+    </nav>
+      <div class="header-btn">
+        <div class="login-btn">
+          <a href="#">Login</a>
+        </div>  
+        <div class="sign-up opacity">
+          <a href="#">Sign Up</a>
+        </div>
+      </div>
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </div>
+</div>
+
+<section class="hero">
+    <div class="heading">
+      <h1 class="heading-txt">Transform your way of <span class="logo">sending</span> links</h1>
+      <h3 class="subheading-txt">Build your brand's recognition and get detailed insights on how your links are perforing. </h3>
+    </div>
+    <div class="cta-btn opacity">
+      <a class="btn-hero" href="#">Get Started</a>
+    </div>
+    <div class="hero-img">
+      <img src="images/heroImage.png" alt="person on computer">
+    </div>
+    <div class="search-wrapper">
+      <div class="searchbar">
+        <input  class="insert-url" type="text" placeholder="Shorten a link here...">
+        <p class="slash">/</p>
+        <input class="slashtag" type="text" placeholder="Slashtag here ...">
+      </div>
+      <div class="search-btn">
+        <a class="shorten-btn opacity" href="#">Shorten It!</a>
+      </div>
+    </div>
+</section>
+<section class="about">
+  <div class="shortened-links">
+    
+  </div>
+  <div class="about-heading">
+    <h1 class="about-h1-txt">Advanced Statistics</h1>
+    <h3>Track how your links are performing across the web with our advanced statistics dashboard.</h3>
+  </div>
+
+  <div class="about-cards">
+    <div class="card first">
+      <div class="img-container first-ctr-img">
+        <img class="brand-img" src="images\icon-brand-recognition.svg" alt="">
+      </div>
+      <h3>Brand Recognition</h3>
+      <p class="p-txt-card">
+        Boost your brand recognition with each click. Generic links don’t 
+        mean a thing. Branded links help instil confidence in your content.
+      </p>
+    </div>
+    <hr class="blue-line">
+    <div class="card second">
+      <div class="img-container second-ctr-img">
+        <img class="detail-img" src="images/icon-detailed-records.svg" alt="">
+      </div>
+      <h3>Detailed Records</h3>
+      <p class="p-txt-card">
+        Gain insights into who is clicking your links. Knowing when and where 
+        people engage with your content helps inform better decisions.
+      </p>
+    </div>
+    <div class="card third">
+      <div class="img-container third-ctr-img">
+        <img class="fully-img" src="images/icon-fully-customizable.svg" alt="">
+      </div>
+      <h3>Fully Customizable</h3>
+      <p class="p-txt-card">
+        Improve brand awareness and content discoverability through customizable 
+        links, supercharging audience engagement.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="cta-container">
+    <h2>Boost your links today</h2>
+    <a href="#" class="opacity">Get started</a>
+  </div>
+</section>  
+<footer>
+  <div class="logo">
+    <h1>GOshort</h1>
+  </div>
+  <div class="footer-links-container">
+    <div class="footer-nav">
+      <h5>Features</h5>
+      <a href="#">Link Shortening</a>
+      <a href="#">Branded Links</a>
+      <a href="#">Analytics</a>
+    </div>
+    <div class="footer-nav">
+      <h5>Resources</h5>
+      <a href="#">Blog</a>
+      <a href="#">Developers</a>
+      <a href="#">Support</a>
+    </div>
+    <div class="footer-nav">
+      <h5>Company</h5>
+      <a href="#">About</a>
+      <a href="#">Our team</a>
+      <a href="#">Careers</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="social-media-container">
+    <div class="social-media">
+      <a href="#"><img class="opacity" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABNklEQVRIS+2X6xGCMBCESQfaAXagFWgHagl2oJVoCVqBlmAHYgXSgXQQ95jEOSJBnFzAH2SGgfDIx+5djqCSnprqiZv8F1hrnUo7oZTK+ZgfigE944aVNBjjZYDP7LgVsFH6iAC1Q44BL6jTNXhiLZcEk5IrtjtzbInjKeuLgwm4cRMIodvi/D4WmJSSkjJ2vMUGHwDdWSBgIxwvTH+OPam2TdRqsvjIwDQrUle96YuC1wBfGFh7oHQ6DtjY/IwJJoU2mU5QTFmdGDDPYoo1tz1YccVen8Ka8tsZ+IaXEi0gbRW7GR6smOKbG4tpOmUsxqTSNndaBYN5WN/qu8jqAVxWrsHqmsLizWr6pDXV2roiFZ7VJk5utWmo+eWltmD/KtMSflxXF3z10fBs5b7/+pP45q3E9RcGjukf16mx3AAAAABJRU5ErkJggg=="/></a>
+      <a href="#"><img class="opacity" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAByUlEQVRIS+2W4U3DMBCFmw1gA5gAOgGwAZ2AdAJgAtoJ6AZ0A8oElAkoExAmoBuE91W2FGwndoJFf8BJp1bOyz2/5+u5xWhPUeyJd/RP/GvOZ7G6rusD7bhUnij5/qZcFkVRWSUGM9LaljWPWICZHs5SpQt/Kuyj8ijwzlxra+W9slLdicV8IzZFXgELdBEjNyrejcouOCqnhnzjKVahcy0+mwrsdNq0y60s/IPWytgGjWocuVW9VYiY8/l0CkG+DBUXMWpDFrvwnWJL6hGz0FIMe56UC9scBlsnqAWC0kUTG2quGwFohrbAKhR8KK+VuBQLzzW3ubCNvFKWsWo9nk+aNntWy2ZIObfccew2qasY2/g5sYFcsRXpoVssdMaXAjEQcsWqOThs0eDIZHoJcJeJ2Ttf74wtkTlrRiHkfA6NjdSOQy+3Kc7VZK3Dp/V2kurY7znmArcT8zkYndeiIWdI9O3ySu+Mm1Mu2tWh7fVsNkhpqN0tNFQxjcUUw/aUgAxSyDvDHSClsfVMnwwTLE6ZxczupXLeZW9zJ22XROq5Qrg2hJ3WuvK7upoJZlXjgA3IsPIF0lSFycSxM/rp8yz/Mods4u8RfwFsL5wfUAiGBAAAAABJRU5ErkJggg=="/></a>
+      <a href="#"><img class="opacity" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACw0lEQVRIS8WW4XETQQyFcx1AB04HpAKcCkI6cCqAVIBdAaECTAUkFXBUgKmA64B0YN63o72RdVqfDT+imZ273dPqSU/S7nUXLyTdC+FenA283+9fydmFDd4HnO+6rj8niJOADeyNDH/U4AlgJo9afJIT2zknZoEFupSRTwY4Z69+3+nl8zEHmsAWJRF+OBUt0dsIfJ3tPwb8TRve/Qdo3doL/DraSYEVLdS2In22gqKofpnBt3oubGS+Pgj83n+YAAuUKIk2CoAbja2M8D4R7V1pkfTgRJRb7aP4imTAP7VO5XrpNbnTxoFF11JU97PWKaZR9P2LJjjhZZDeZQrciBawK6J0BYfR2FL30nmohqWbBYDz20nEUs4KqlBkoHxfhkj89FG6t8bKQs/fQXf8PlJthlH0kexk6MoMrfUkfwi5+qHxXgMAL9f1FJPN78FRauMS9jwweYUeL6Uag1NjhTZSQ/HdmbNZd5C2nQeGQjz0UnIiAO8UHg9mmGgjnWPfNhwrqfPAWRuVgvEGNJ/b49OzkmNU+CSYOSOFNqP6j+32Ea+1VvNejXuqOYSg28skYoqqGq+K9Ohro7W2hy8eaIZuLxvtwSH6PeuSsv/gAJEiwLE/SzHYqQRtJWLNs/yOVdvokmlVm4ex/FkeNDjkVxo3rr0iQxilJrZmi6hjGqZ9bMpZS42064WNpVVMf2nGAeX+7Z0dgojslS5B59SzumKNG2kxUlA/OGcoKCKNoDBXjt4WcOt2Qr/mtzLDbVWilLB2owELmYxOp8BGVXbi+ArP2qSBV5bn72NHWbza/MFwzt8J5zrRHtzhR3/2wp9IOQobbdSKlmuSvj4AbVLtrdg5TfRQDfBa77FNIjBF91X64/0cFWZ/bx31FF2vEa/OqkJUAD5pNH+PqvLJwIGFheZUMS0zwAbPjNJWDv4JuGXsnPW/oVxiLtiIoDgAAAAASUVORK5CYII="/></a>
+      <a href="#"><img class="opacity" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACfUlEQVRIS9WWTzJDQRDGvZUtN4gbyAnE1oYsrbCwU4UTiBNga4OFNU4gxQG4gdyAG8T3S/VEz7x5eSMWKVPV9TLzevrrr//lVUsLWtWCcJf+B/B4PF5xEfK/Of6qquqrNIIzGQuoJ0PbEp4dSQrWhPOII5I7OTPMKWWBjdmZLuxnwJpYNTl1KfDTFLwJ+EKKJ+b1lZ54/V4aSjm+I/0NswHmo+72PXgN2ML7YEr9plCV5FK21qX3Zrqb3lYO+MZCfC7FQQmA1xHYrvb3khfd72kf7EWsc8CwJVSwpUhqy2oANggpIBWTpXfXehzadlnPLQk2qfrVoJcD/tRLCmVNiqOEDedNRTcpIgF3pXMkedX+1pzEJms11EkE7JWkkHtH2IgGi+qGaUcCcxbsAY6W7I7tYEqmCTgKC5d0d2BsATwANHhvRfSsMyJSax+9D1Hs6s479lJgvP+Ajc+HRYJzDGdzb90AOGsaUnN6buCeDGC0FgkfU4HTOoQ9ap2/MGaYMFQI72acwZ+da51T6V2GN38BpqBqLZE6IIBsK5YAk0PykctxaIkojI4V6QC41opzA1uBhPnNNs0hoLRaRzKrqn/fTgYeioctbcVko5gAhCmtglPRP1hrH5vx0OxRS7iQeuY+zRQT8z0FDelDN884YTVt9kwRYYzwwhSWo3S8OkfRoxWjqZab1YHRXP9OGScHOmO+t/47BQ8JGfmajLh5VjJKo95u+gIJ/QjeuYTBMSwBt/FKCvYk+xLS0v4FgnG7TMi56FdUODMcASwsHGa+R3dLvjKPdTG0TAlpdAAhRU9+dPrLxR/0FgWYeDY5R5h6ozYPi4HbDP32/cKAvwFbc18u827/pQAAAABJRU5ErkJggg=="/></a>
+    </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
