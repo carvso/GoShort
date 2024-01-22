@@ -97,9 +97,6 @@ nav > a:hover{
     color: var(--GrayishViolet);
     text-decoration: none;
 }
-.login-btn:hover{
-    background-color: var(--Cyan);
-}
 .sign-up{
     border-radius: 360px;   
     background-color: var(--Cyan);
@@ -341,7 +338,7 @@ absolute fixed to its relative parent, you can use the following CS
 }
 /*  */
 .cta{
-    height: 33vh;
+    height: 37vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -356,13 +353,14 @@ absolute fixed to its relative parent, you can use the following CS
     display: flex;
     gap: 1.5em;
     flex-wrap: wrap;
-    width: 40em;
+    width: 25em;
+    align-items: center;
+    justify-content: center;
 }
 .cta-container > h2{
     font-weight: 700;
     font-size: 2rem;
     color: #fff;
-
 }
 .cta .cta-container > a{
     border-radius: 360px;
