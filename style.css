@@ -142,6 +142,9 @@ nav > a{
 .hero .cta-btn{
     margin-top: 1.1em;
 }
+.hero .btn-hero{
+    box-shadow: 0px 7px 15px 3px rgba(60,108,254,0.6);
+}
 .opacity:hover{
     opacity: .5;
 }
@@ -270,7 +273,7 @@ nav > a{
     flex-direction: column; */
     background-color: #fff;
     padding: 2.5em 2em;
-    z-index: 2;
+    z-index: 2; 
 }
 .card > img{
     /* background-color: var(--VeryDarkViolet);
@@ -350,6 +353,10 @@ absolute fixed to its relative parent, you can use the following CS
 }
 .cta-container{
     margin-top: 2.5em;
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    width: 40em;
 }
 .cta-container > h2{
     font-weight: 700;
@@ -493,7 +500,7 @@ footer{
 
 @media (max-width: 450px) {
     html{
-        font-size: 50%;
+        font-size: 51%;
         overflow-x: hidden;
     }
     .header{
@@ -502,6 +509,7 @@ footer{
     }
     .hero{
         padding: 0 4em;
+        text-align: center;
     }
     .about{
         padding: 0 4em;
@@ -517,6 +525,10 @@ footer{
     }
     .hero .hero-img{
         display: none;
+    }
+    .hero .heading{
+        margin-left: auto;
+        margin-right: auto;
     }
     .insert-url{
         width: 2em;
@@ -571,10 +583,8 @@ footer{
         text-align: center;
     }
     .img-container{
-        position: absolute;
-        right: 16em;
-        top: -1.7em;
-        
+        inset: 0;
+        margin: auto;
     }
     .blue-line{
         width: 40em;
@@ -606,7 +616,7 @@ footer{
     }
     footer .footer-links-container{
         margin-top: 0;
-        flex-direction: column;
+        flex-direction: row;
         margin-left: auto;
         margin-right: auto;
         gap: 1em;
