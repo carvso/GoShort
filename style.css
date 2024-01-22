@@ -270,7 +270,7 @@ nav > a{
     flex-direction: column; */
     background-color: #fff;
     padding: 2.5em 2em;
-    z-index: 2; 
+    z-index: 2;     
 }
 .card > img{
     /* background-color: var(--VeryDarkViolet);
