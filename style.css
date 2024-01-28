@@ -21,21 +21,17 @@ body{
 }
 .header{
     padding: 0 8em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 .logo-nav-container{
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20em;
-}
+    align-items: center;   
+    justify-content: space-between;
+}   
 nav{
     display: flex;
     gap: 2em;
 }
-.menuIcon{
+.navigation > a:nth-child(4){
     display: none;
 }
 .sidebar{   
@@ -67,8 +63,8 @@ nav{
 }
 .header-btn{
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    position: relative;
+    right: 0em;
 }
 .login-color > a{
     color: #fff;
@@ -226,7 +222,7 @@ nav > a{
     background-color: var(--About-bg);
     position: relative;
     top: 1em;
-    height: 180vh;
+    height: 170vh;
     /* position: relative;
     bottom: 0em;
     left: 0;
@@ -332,29 +328,26 @@ absolute fixed to its relative parent, you can use the following CS
 */
 .blue-line{
     border: .2em solid var(--WowBlue);
-    width: 70%;
+    width: 85%;
     position: absolute;
     bottom: 7em;
 }
 /*  */
 .cta{
-    height: 37vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     background-color: var(--DarkViolet);
     background-image: url(images/bgCta.png);
     background-size: cover;
     background-position: 0;
 }
 .cta-container{
-    margin-top: 2.5em;
     display: flex;
-    gap: 1.5em;
     flex-wrap: wrap;
     width: 25em;
-    align-items: center;
     justify-content: center;
 }
 .cta-container > h2{
@@ -375,6 +368,7 @@ footer{
     padding: 0 8em;
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
     background-color: var(--VeryDarkViolet);
     height: 35vh;
 }
@@ -384,8 +378,6 @@ footer{
 
 .footer-links-container{
     display: flex;
-    margin-top: 2.5em;
-    margin-left: 20em;
     gap: 5em;
 }
 .footer-nav{
@@ -403,10 +395,12 @@ footer{
 .footer-nav > a:hover{
     color: var(--Cyan);
 }
-.social-media-container{
-    margin-left: 10em;
-}
 .social-media{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.social-media >a{
     display: flex;
     justify-content: space-between;
     gap: 1em;
