@@ -480,6 +480,9 @@ footer{
     .navigation > a:nth-child(3){
         display: none;
     }
+    .navigation > a:nth-child(4){
+        display: flex;
+    }
     .navigation{
         position: absolute;
         right: 2em;
@@ -559,6 +562,10 @@ footer{
     .header-btn{
         display: none;
     }
+    .search-wrapper{
+        padding-left: 1em;
+        padding-right:  1em;
+    }
     .searchbar .insert-url{
         width: 12em;
         outline: none;  
@@ -589,12 +596,6 @@ footer{
     }
     .cta{
         height: 13vh;
-    }
-    .cta .cta-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 4em;
     }
     footer{
         text-align: center;
