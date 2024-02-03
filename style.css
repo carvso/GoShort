@@ -232,6 +232,7 @@ nav > a{
     display: flex;
     flex-direction: column;
     gap: 1em;
+    flex-wrap: wrap;
 } 
 .about .about-heading{
     display: flex;
