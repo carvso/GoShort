@@ -16,14 +16,14 @@ const validateInputs = () => {
     const slashtagValue = slashtag.value;
     
     if(urlValue === '') {
-        setError(url, 'This field is required');
+        setError(url, 'Questo campo è necessario');
     }
     else {
         setSuccess(url);
     }
 
     if(slashtagValue === '') {
-        setError(slashtag, 'This field is required');
+        setError(slashtag, 'Questo campo è necessario');
     }
     else {
         setSuccess(slashtag);
@@ -34,8 +34,8 @@ const setError = (element, message) => {
     element.value = "";
 };  
 const setSuccess = (element) => {
-    element.placeholder = "miao";
-    element.placeholder = "bao";
+    element.placeholder = "Successful";
+    element.placeholder = "Shortening";
 }; 
 const headers = {
   'Content-Type': 'application/json',
@@ -122,5 +122,3 @@ closeIcon.addEventListener("click", () =>{
     const sidebar = document.querySelector(".sidebar");
     sidebar.style.display = "none";
 });
-
-
