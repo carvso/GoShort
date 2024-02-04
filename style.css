@@ -223,10 +223,6 @@ nav > a{
     position: relative;
     top: 1em;
     height: 170vh;
-    /* position: relative;
-    bottom: 0em;
-    left: 0;
-    width: 100%; */
 }
 .shortened-links{
     display: flex;
@@ -607,6 +603,7 @@ footer{
     }
     .about{
         height: 100vh;
+        max-height: 130vh;
     }
     .cta{
         height: 13vh;

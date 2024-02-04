@@ -58,6 +58,14 @@ async function dataFetch(){
     return response.json();
 }
 
+function addHeightToSection(){
+    const sectionAbout = document.querySelector('.about');
+    const sectionHeight = sectionAbout.offsetHeight; 
+
+    const newSectionHeight = sectionHeight + 150; 
+    sectionAbout.style.height = newSectionHeight + 'px'; 
+}
+
 function createShortenLinkElement(result) {
     const shortenedLinkDiv = document.createElement("div");
     shortenedLinkDiv.className = "shorten-link-wrapper";
@@ -83,6 +91,8 @@ function createShortenLinkElement(result) {
     copyBtn.addEventListener("click", () => {
         navigator.clipboard.writeText(result.shortUrl);
     });
+
+    addHeightToSection();
 
     return shortenedLinkDiv;
 }
