@@ -565,8 +565,11 @@ footer{
     .header-btn{
         display: none;
     }
-    .shortened-links{
-            
+    .shorten-link-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0em;
     }
     .search-wrapper{
         padding-left: 1em;
@@ -576,7 +579,12 @@ footer{
         width: 12em;
         outline: none;  
     }
-
+    .full-link{
+        margin-bottom: 0em;
+    }
+    .shortened-link{
+        
+    }
     .searchbar .slashtag{
         width: 8em;
         outline: none;

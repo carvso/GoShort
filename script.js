@@ -1,4 +1,4 @@
-const API_KEY = '643b3a1c070b4bcbb37756b352f9ab2b';
+const API_KEY = '84638cd93c6e4d5ba30b2c3d7d9a8132';
 const API_URL = 'https://api.rebrandly.com/v1/links';
 
 const url = document.querySelector(".insert-url");
