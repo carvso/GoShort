@@ -1,8 +1,7 @@
-# Frontend Mentor - Shortly URL shortening API Challenge solution
+# GOShort - Trasform the way we see links!
+Introducing GoShort – your ultimate destination for hassle-free **URL shortening!** With the power of __Rebrand.ly's__ RESTful API, GoShort empowers users like **you** to effortlessly create personalized and branded shortened links in just a **few clicks**.
 
-This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
+## Table of contents 🗃
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -12,15 +11,21 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### The challenge
+### Screenshot 📷
+
+## Desktop Layout 💻
+
+![](./images/GoShort_desktop.png)
+
+## Mobile Layout 📱
+
+![](./images/GoShort_mobile.gif)
+
+### The challenge 🎯
 
 Users should be able to:
 
@@ -31,19 +36,11 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
 
-### Screenshot
-
-![](./images/GoShort_desktop.png)
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-### Links
+### Links 🔗
 
 - Live Site URL: [GOShort Live Link](https://carvso.github.io/urlShortener/)
 
 ## My process
-
-First, i started designing 
 
 ### Built with
 
@@ -55,7 +52,7 @@ First, i started designing
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
+### What I learned 📚
 
 To realize this project i first started to look at the design that i was imagening and converted it into figma draft. The hero image was also realized by me into figma using an image generated via "blush" and vector image of a cutting url and some vectors to add movement to the image.
 Then, I started building the skeleton of the web application, the HTML, and added css styling.The major things I've learnt during this project for the css part are:
@@ -69,13 +66,13 @@ Added an opacity class, targetting the pseudo class ":hover" to change opacity w
 But i also learnt how to set an element with position absolute fixed to its relative parent, for example to fix an image relatively to the hero section like this:
 
 ```css
-.blue-line{ <-- child element
+.blue-line{     /* <-- child element */
     border: .2em solid var(--WowBlue);
     width: 70%;
     position: absolute;
     bottom: 7em;
 }
-.about-cards{ <-- parent element
+.about-cards{   /* <-- parent element */
     display: flex;
     gap: 2em;
     position: relative;
@@ -159,11 +156,11 @@ function addHeightToSection(){
 }
 ```
 
-### Continued development
+### Continued development 👨‍💻
 
 In future I want to focus more on RESTful APIS to master not only the managing but also the creation of those.
 
-## Author
+## Author 👤
 
 - Website - [Vincenzo Caruso](https://www.carvso.me)
 - LinkedIn - [Vincenzo Caruso](https://www.linkedin.com/in/vincenzo-carvso/)
