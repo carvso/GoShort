@@ -26,18 +26,16 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - Shorten any valid URL
-- See a list of their shortened links, even after refreshing the browser
+- See a list of their shortened links
 - Copy the shortened link to their clipboard in a single click
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/GoShort_desktop.png)
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -146,6 +144,18 @@ async function dataFetch(){
         body: JSON.stringify(data)  //<-- It converts JS Object in to strings
     });
     return response.json();         //<--Used to read and parse the result of the promise  
+}
+```
+
+I want also to highlight how I managed the needs to update the height of the **about** section every time the new div, **shorten-link-wrapper**, is appended to the DOM tree. I created a function called __addHeightToSection()__ that takes the actual height of the page (in pixels) and then modifies it, adding 150px. The function is then nested inside createShortenLinkElement, and called every time a new shotened link is generated: 
+
+```js
+function addHeightToSection(){
+    const sectionAbout = document.querySelector('.about');
+    const sectionHeight = sectionAbout.offsetHeight; 
+
+    const newSectionHeight = sectionHeight + 150; 
+    sectionAbout.style.height = newSectionHeight + 'px'; 
 }
 ```
 
