@@ -174,7 +174,7 @@ nav > a{
     position: relative;
     top: 6.5em;
     border-radius: 10px;
-    background-image: url(images/bgShorten.png);
+    background-image: url(../images/bgShorten.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -339,7 +339,7 @@ absolute fixed to its relative parent, you can use the following CS
     align-items: center;
     justify-content: center;
     background-color: var(--DarkViolet);
-    background-image: url(images/bgCta.png);
+    background-image: url(../images/bgCta.png);
     background-size: cover;
     background-position: 0;
 }
@@ -577,9 +577,6 @@ footer{
     }
     .full-link{
         margin-bottom: 0em;
-    }
-    .shortened-link{
-        
     }
     .searchbar .slashtag{
         width: 8em;
