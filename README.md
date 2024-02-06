@@ -50,8 +50,6 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla JavaScript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned 📚
 
 To realize this project i first started to look at the design that i was imagening and converted it into figma draft. The hero image was also realized by me into figma using an image generated via "blush" and vector image of a cutting url and some vectors to add movement to the image.
