@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links 🔗
 
-- Live Site URL: [GOShort Live Link](https://carvso.github.io/urlShortener/)
+- Live Site URL: [GOShort Live Link](https://carvso.github.io/GoShort/)
 
 ## My process
 
